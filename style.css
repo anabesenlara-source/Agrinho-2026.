@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Segoe UI', sans-serif;
+  background:linear-gradient(
+  180deg,
+  #87CEEB,
+  #E0F7FA,
+  #C8E6C9
+  );
+  color:#333;
+}
+
+.hero{
+  text-align:center;
+  padding:80px 20px;
+  background:linear-gradient(
+  135deg,
+  #4CAF50,
+  #8BC34A,
+  #FFEB3B
+  );
+  color:white;
+}
+
+.hero h1{
+  font-size:4rem;
+  text-shadow:3px 3px 8px rgba(0,0,0,.3);
+}
+
+.hero p{
+  font-size:1.4rem;
+  margin:15px 0;
+}
+
+button{
+  padding:15px 25px;
+  border:none;
+  border-radius:30px;
+  background:#FF5722;
+  color:white;
+  font-size:1rem;
+  cursor:pointer;
+  transition:.3s;
+}
+
+button:hover{
+  transform:scale(1.1);
+  background:#E64A19;
+}
+
+.cards{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:25px;
+  padding:50px 20px;
+}
+
+.card{
+  width:300px;
+  background:white;
+  border-radius:20px;
+  padding:25px;
+  box-shadow:0 5px 15px rgba(0,0,0,.2);
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card h2{
+  margin-bottom:15px;
+}
+
+.contador{
+  text-align:center;
+  padding:50px;
+}
+
+.contador h1{
+  font-size:5rem;
+  color:#2E7D32;
+}
+
+.mensagem{
+  text-align:center;
+  padding:40px;
+  min-height:80px;
+}
+
+#texto{
+  color:#1565C0;
+  font-size:2rem;
+}
+
+footer{
+  text-align:center;
+  background:#2E7D32;
+  color:white;
+  padding:20px;
+  margin-top:50px;
+}
